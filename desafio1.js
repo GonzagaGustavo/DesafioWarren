@@ -1,3 +1,4 @@
+console.log("Desafio 1")
 let final = [];
 
 //Criando um loop que vai de um até um milhão
