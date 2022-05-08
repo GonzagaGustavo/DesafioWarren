@@ -16,13 +16,17 @@ for (let i = 1; i < 1000000; i++) {
         
     } else {
         //Criando um json para ficar mais facil de visualizar qual era o numero, o reverso e o resultado.
-        let json = {
+        if(reverso.substring(0, 1) === "0") {
+          
+        } else {
+          let json = {
         n: i,
         reversoN: reverso,
         resultado: i + numReverse,
       };
       //Mandando a informação para a variavel que sera renderizado todos os resultados
       final.push(json);
+        }  
     }
   }
 
